@@ -1,4 +1,4 @@
-const dados = [
+[
   {
     "Número": 45,
     "Nome do Mob": "Agent of Beres , Meana",
@@ -1175,19 +1175,4 @@ const dados = [
     "Pontos": null,
     "BOSS": "PT3"
   }
-];
-
-function buscarMob() {
-    const termo = document.getElementById("searchInput").value.toLowerCase();
-    let resultados = [];
-
-    for (let mob of dados) {
-        if (mob["Nome do Mob"].toLowerCase().includes(termo)) {
-            resultados.push(`<strong>${mob["Nome do Mob"]}</strong><br>Número: ${mob["Número"]}<br>BOSS: ${mob["BOSS"]}<br><br>`);
-        }
-    }
-
-    document.getElementById("resultado").innerHTML = resultados.length > 0
-        ? resultados.join("")
-        : "Nenhum mob encontrado.";
-}
+]
