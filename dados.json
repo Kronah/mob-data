@@ -1,1179 +1,1193 @@
-
-[
+const dados = [
   {
     "Número": 45,
     "Nome do Mob": "Agent of Beres , Meana",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 44,
     "Nome do Mob": "Antharas Priest Cloe",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 75,
     "Nome do Mob": "Apepi",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 14,
     "Nome do Mob": "Atraiban",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 19,
     "Nome do Mob": "Barion",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 56,
     "Nome do Mob": "Beleth's Seer Sephia",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 24,
     "Nome do Mob": "Biconne Of Blue Sky",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 71,
     "Nome do Mob": "Black Lily",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 30,
     "Nome do Mob": "Bloody Priest Rudelto",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 11,
     "Nome do Mob": "Breka Warlock Pastu",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 28,
     "Nome do Mob": "Captain Of Red Flag Shaka",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 54,
     "Nome do Mob": "Carnage Lord Gato",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 32,
     "Nome do Mob": "Cat's Eye Bandit",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
-  },
-  {
-    "Número": null,
-    "Nome do Mob": "Chertuba of Great Soul",
-    "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 26,
-    "Nome do Mob": "Crazy Mechanic Golem",
+    "Nome do Mob": "Chertuba of Great Soul",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 35,
+    "Nome do Mob": "Crazy Mechanic Golem",
+    "Pontos": null,
+    "Arquivo": "PT1"
+  },
+  {
+    "Número": 76,
     "Nome do Mob": "Cronos Servitor Mumu",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 73,
     "Nome do Mob": "Demon Kurikups",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 77,
     "Nome do Mob": "Earth Protector Panathen",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 38,
     "Nome do Mob": "Elf Renoa",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 29,
     "Nome do Mob": "Enchanted Forest Watcher Ruell",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 15,
     "Nome do Mob": "Evas Guardian Milenu",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 78,
     "Nome do Mob": "Fafurion's Herald Lokness",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 43,
-    "Nome do Mob": "FIELD OF MASSACRE",
+    "Nome do Mob": "Ghost of the wel, lidia",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 50,
     "Nome do Mob": "Fierce Tiger King Angel",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 58,
     "Nome do Mob": "Fire Of Wrath Shuriel",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 61,
     "Nome do Mob": "Flame Lord Shadar",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 7,
     "Nome do Mob": "Furious Thieles",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 8,
     "Nome do Mob": "Ghost Of Peasant Leader",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 65,
     "Nome do Mob": "Giant Marpanak",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 4,
     "Nome do Mob": "Greyclaw Kutus",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 72,
     "Nome do Mob": "Guardian Of The Statue Of Giant Karum",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 47,
     "Nome do Mob": "Guilotine Warden of The Execution Grounds",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 57,
     "Nome do Mob": "Hekaton Prime",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 46,
     "Nome do Mob": "Icarus Sample 1",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 67,
     "Nome do Mob": "Ikuntai",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 20,
     "Nome do Mob": "Karte",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 13,
     "Nome do Mob": "Katu Van Leader Atul",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 63,
     "Nome do Mob": "King Tarlik",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 37,
     "Nome do Mob": "Korim",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 80,
     "Nome do Mob": "Krokian Padisha Sobekk",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 52,
     "Nome do Mob": "Langk Matriarch Rashkos",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 33,
     "Nome do Mob": "Leader Of Cat Gang",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 55,
     "Nome do Mob": "Leto Chief Talkin",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 69,
     "Nome do Mob": "Lizardmen Leader Hellion",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
-  },
-  {
-    "Número": null,
-    "Nome do Mob": "Longhom Golkonda",
-    "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 51,
+    "Nome do Mob": "Longhom Golkonda",
+    "Pontos": 1,
+    "Arquivo": "PT1"
+  },
+  {
+    "Número": 48,
     "Nome do Mob": "Messenger Of Fairy Queen Berun",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 59,
     "Nome do Mob": "Serpent Demon Bifrons",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 81,
     "Nome do Mob": "Ocean Flame Ashakiel",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 10,
     "Nome do Mob": "Pan Dryad",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 64,
     "Nome do Mob": "Paniel The Unicorn",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 31,
     "Nome do Mob": "Princess Molrang",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 68,
     "Nome do Mob": "Ragraman",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 22,
     "Nome do Mob": "Rahha",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 49,
     "Nome do Mob": "Refugee Hopeful Leo",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 18,
     "Nome do Mob": "Remmel",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 6,
     "Nome do Mob": "Retreat Spider Cletu",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 40,
     "Nome do Mob": "Rotten Tree Repiro",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 39,
     "Nome do Mob": "Sejarr's Servitor",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 41,
     "Nome do Mob": "Shacram",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 62,
     "Nome do Mob": "Shaman King Selu",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 16,
     "Nome do Mob": "Shilen's Messenger Cabrio",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 42,
     "Nome do Mob": "Sorcerer Isirr",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 36,
     "Nome do Mob": "Souless Wild Boar",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 12,
     "Nome do Mob": "Stakato Queen Zynna",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 74,
     "Nome do Mob": "Tasaba Patriarch Hellena",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 9,
     "Nome do Mob": "The 3rd Underwater Guardian",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 66,
     "Nome do Mob": "Roaring Skylancer",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 70,
     "Nome do Mob": "Tiger King Karuta",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 34,
     "Nome do Mob": "Timak Orc Chief Ranger",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 17,
     "Nome do Mob": "Tirak",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 23,
     "Nome do Mob": "TOWER OF INSOLENCE",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 5,
     "Nome do Mob": "Turek Mercenary Captain",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 1,
     "Nome do Mob": "Tyrannosaurus",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 2,
     "Nome do Mob": "Tyrannosaurus",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
-    "Número": null,
+    "Número": 3,
     "Nome do Mob": "Tyrannosaurus",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 25,
     "Nome do Mob": "Unrequited Kael",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 21,
     "Nome do Mob": "Verfa",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 53,
     "Nome do Mob": "Vuku Grand Seer Gharmash",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 79,
     "Nome do Mob": "Water Dragon Seer Sheshark",
     "Pontos": 1,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 27,
     "Nome do Mob": "Wizard Of Storm Teruk",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 60,
     "Nome do Mob": "Zombie Lord Crowl",
     "Pontos": null,
-    "Arquivo": "BOSS PT1"
+    "Arquivo": "PT1"
   },
   {
     "Número": 13,
     "Nome do Mob": "Abyss Brukunt",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
+  },
+  {
+    "Número": 32,
+    "Nome do Mob": "Anakim Nemesis Zakaron",
+    "Pontos": 1,
+    "Arquivo": "PT2"
   },
   {
     "Número": 11,
-    "Nome do Mob": "Anakim Nemesis Zakaron",
+    "Nome do Mob": "Ancient Weird Drake",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 68,
-    "Nome do Mob": "Ancient Weird Drake",
-    "Pontos": 1,
-    "Arquivo": "BOSS PT2"
-  },
-  {
-    "Número": null,
     "Nome do Mob": "Archon Suscepter",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 26,
     "Nome do Mob": "Beast Lord Behemoth",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 79,
     "Nome do Mob": "Betrayer Of Urutu Freki",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 25,
     "Nome do Mob": "Blood Empress Decarbia",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 66,
     "Nome do Mob": "Captain of Queen's Royal Guards",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 28,
     "Nome do Mob": "Carnamakos",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 71,
     "Nome do Mob": "Corsair Captain Kylon",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 4,
     "Nome do Mob": "Cursed Clara",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 44,
     "Nome do Mob": "Daimon The White-Eyed",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 5,
     "Nome do Mob": "Death Lord Hallate",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 29,
     "Nome do Mob": "Death Lord Ipos",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 33,
     "Nome do Mob": "Death Lord Shax",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 46,
     "Nome do Mob": "Demon's Agent Falston",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 57,
     "Nome do Mob": "Discared Guardian",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 17,
     "Nome do Mob": "Doom Blade Tanatos",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 76,
     "Nome do Mob": "Dread Avenger Kraven",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 48,
     "Nome do Mob": "Elhalder Von Hellmann",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 45,
     "Nome do Mob": "Ember",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 63,
     "Nome do Mob": "Evil Spirit Tempest",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 69,
     "Nome do Mob": "Eye Of Beleth",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 63,
     "Nome do Mob": "Fafurion's Page Sika",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 78,
     "Nome do Mob": "Fairy Queen Timinel",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 47,
     "Nome do Mob": "Flame Of Spledor Barakiel",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 81,
     "Nome do Mob": "Flamestone Golem (Ivory Tower)",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 49,
     "Nome do Mob": "Gargoyle Lord Sirocco",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 20,
     "Nome do Mob": "Gargoyle Lord Tiphon",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 50,
     "Nome do Mob": "Giant Wasteland Basilisk",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 14,
     "Nome do Mob": "Harit Hero Tamash",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 35,
     "Nome do Mob": "Hestia, Guardian Deity of The Hot Springs",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 36,
     "Nome do Mob": "Icicle Emperor Bumbalump",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 23,
     "Nome do Mob": "Iron Giant Totem",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 61,
     "Nome do Mob": "Kaysha Herald Of Icarus",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 24,
     "Nome do Mob": "Kernon's Faithfull Servant Kelone",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 38,
     "Nome do Mob": "Ketra's Chief Brakki",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 37,
     "Nome do Mob": "Ketra's Commander Tayr",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 36,
     "Nome do Mob": "Ketra's Hero Hekaton",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 55,
     "Nome do Mob": "Kuroboros Prist",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 16,
     "Nome do Mob": "Last Lesser Giant Glaki",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": 15,
+    "Número": 77,
     "Nome do Mob": "Last Lesser Giant Olkuth",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 30,
     "Nome do Mob": "Liliths Witch Marilon",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 72,
     "Nome do Mob": "Lord Ishka",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 60,
     "Nome do Mob": "Madness Beast",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 58,
     "Nome do Mob": "Malex Herald Of Dagoniel",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
+  },
+  {
+    "Número": 80,
+    "Nome do Mob": "Mammon Collector Talos",
+    "Pontos": null,
+    "Arquivo": "PT2"
   },
   {
     "Número": 75,
-    "Nome do Mob": "Mammon Collector Talos",
-    "Pontos": null,
-    "Arquivo": "BOSS PT2"
-  },
-  {
-    "Número": null,
     "Nome do Mob": "Nakondas",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 74,
     "Nome do Mob": "Necrosentinel Royal Guard",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 65,
     "Nome do Mob": "Nurkas Messenger",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 74,
     "Nome do Mob": "Orfen's Handmaiden",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 61,
     "Nome do Mob": "Pagan Watcher Cerberon",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 18,
     "Nome do Mob": "Palatanos Of Horrific Power",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 66,
     "Nome do Mob": "Palibati Queen Themis",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 27,
     "Nome do Mob": "Partisan Leader Talakin",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 54,
     "Nome do Mob": "Patriarch Kuroboros",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 67,
     "Nome do Mob": "Premo Prime",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 64,
     "Nome do Mob": "Red Eye Captain Trakia",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 62,
     "Nome do Mob": "Revanant Of Sir Calibus",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 73,
     "Nome do Mob": "Road Scavenger Leader",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 7,
     "Nome do Mob": "Roaring Lord Kastor",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 2,
     "Nome do Mob": "Sebek",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 70,
     "Nome do Mob": "Skyla",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 6,
     "Nome do Mob": "Soul Collector Acheron",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 40,
     "Nome do Mob": "Soul of Fire Nastron",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 39,
     "Nome do Mob": "Soul of Water Ashutar",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 56,
     "Nome do Mob": "Soul Scavenger",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 10,
     "Nome do Mob": "Spirit Of Andras The Betrayer",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": 8,
+    "Número": 9,
     "Nome do Mob": "Storm Winged Naga",
-    "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Pontos": null,
+    "Arquivo": "PT2"
   },
   {
     "Número": 51,
     "Nome do Mob": "Sukar Wererat Chief",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 21,
     "Nome do Mob": "Taik High Prefect Arak",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 52,
     "Nome do Mob": "Tiger Hornet",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 54,
     "Nome do Mob": "Timak Seer Ragoth",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 53,
     "Nome do Mob": "Tracker Leader Sharuk",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 12,
     "Nome do Mob": "Vanor Chief Kandra",
     "Pontos": 1,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 43,
     "Nome do Mob": "Varka's Chief Horus",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 42,
     "Nome do Mob": "Varka's Commander Mos",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 41,
     "Nome do Mob": "Varka's Hero Shadith",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 1,
     "Nome do Mob": "Water Couatle Ateka",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
-    "Número": null,
+    "Número": 22,
     "Nome do Mob": "Zaken Butcher Krantz",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 55,
     "Nome do Mob": "Zombie Lord Farakelsus",
     "Pontos": null,
-    "Arquivo": "BOSS PT2"
+    "Arquivo": "PT2"
   },
   {
     "Número": 24,
     "Nome do Mob": "Akata",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 1,
     "Nome do Mob": "Bandit Leader Barda",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 33,
     "Nome do Mob": "Barakiel Last Hit",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 7,
     "Nome do Mob": "Cherub Galaxia",
     "Pontos": 1,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 27,
     "Nome do Mob": "Dark Shaman Varangka",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 10,
     "Nome do Mob": "Deadman Ereve",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 5,
     "Nome do Mob": "Enmity Ghost Ramdal",
     "Pontos": 1,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 21,
     "Nome do Mob": "Eva's Spirit Niniel",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 4,
     "Nome do Mob": "Evil Spirit Cyrion",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 22,
     "Nome do Mob": "Fafurion's Envoy Pingolpin",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 23,
     "Nome do Mob": "Fafurion's Henchman Istary",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 15,
     "Nome do Mob": "Ghost Knight Kabed",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 32,
     "Nome do Mob": "Gordon (Não Aparece)",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 14,
     "Nome do Mob": "Grave Robber Kim",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 20,
     "Nome do Mob": "Gwindorr",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 11,
     "Nome do Mob": "Harit Guardian Garangky",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 6,
     "Nome do Mob": "Immortal Savior Mardil",
     "Pontos": 1,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 13,
     "Nome do Mob": "Last Titan Utenus",
     "Pontos": 1,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 17,
     "Nome do Mob": "Magus Kenishee",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 29,
     "Nome do Mob": "Master Anays",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 8,
     "Nome do Mob": "Meanas Anor",
     "Pontos": 1,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 9,
     "Nome do Mob": "Mirror Of Obilivion",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 25,
     "Nome do Mob": "Nelis Vengeful Spirit",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 34,
     "Nome do Mob": "Palibati Queen Thems",
     "Pontos": 1,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 30,
     "Nome do Mob": "Plague Golem",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 16,
     "Nome do Mob": "Shilen's Priest Hisilrome",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 26,
     "Nome do Mob": "Rayito The Looter",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 28,
     "Nome do Mob": "Queen Shyeed",
     "Pontos": 1,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 12,
     "Nome do Mob": "Gorgolos",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 3,
     "Nome do Mob": "Thief Kelbar",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 2,
     "Nome do Mob": "Timak Orc Gosmos",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 31,
     "Nome do Mob": "Urukao",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 19,
     "Nome do Mob": "Water Spirit Lian",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   },
   {
     "Número": 18,
     "Nome do Mob": "Zaken's Chief Mate Tilion",
     "Pontos": null,
-    "Arquivo": "BOSS PT3"
+    "Arquivo": "PT3"
   }
-]
+];
+
+function buscarMob() {
+    const termo = document.getElementById("searchInput").value.toLowerCase();
+    let resultados = [];
+
+    for (let mob of dados) {
+        if (mob["Nome do Mob"].toLowerCase().includes(termo)) {
+            resultados.push(`<strong>${mob["Nome do Mob"]}</strong><br>Número: ${mob["Número"]}<br>Arquivo: ${mob["Arquivo"]}<br><br>`);
+        }
+    }
+
+    document.getElementById("resultado").innerHTML = resultados.length > 0
+        ? resultados.join("")
+        : "Nenhum mob encontrado.";
+}
